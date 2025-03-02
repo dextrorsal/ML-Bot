@@ -1,0 +1,83 @@
+{
+  "test_id": "optimization_20250225_190707",
+  "timestamp": "20250225_190707",
+  "strategy_class": "ParameterizedIndicator",
+  "metric_name": "sharpe_ratio",
+  "higher_is_better": true,
+  "total_combinations": 4,
+  "best_params": {
+    "param_a": 5,
+    "param_b": 20,
+    "initial_capital": 10000.0,
+    "position_size_pct": 10.0,
+    "commission_pct": 0.1,
+    "slippage_pct": 0.05,
+    "max_positions": 1
+  },
+  "best_metrics": {
+    "sharpe_ratio": 1.5,
+    "max_drawdown": 10.0
+  },
+  "all_results": [
+    {
+      "params": {
+        "param_a": 5,
+        "param_b": 20,
+        "initial_capital": 10000.0,
+        "position_size_pct": 10.0,
+        "commission_pct": 0.1,
+        "slippage_pct": 0.05,
+        "max_positions": 1
+      },
+      "metrics": {
+        "sharpe_ratio": 1.5,
+        "max_drawdown": 10.0
+      }
+    },
+    {
+      "params": {
+        "param_a": 5,
+        "param_b": 30,
+        "initial_capital": 10000.0,
+        "position_size_pct": 10.0,
+        "commission_pct": 0.1,
+        "slippage_pct": 0.05,
+        "max_positions": 1
+      },
+      "metrics": {
+        "sharpe_ratio": 1.5,
+        "max_drawdown": 10.0
+      }
+    },
+    {
+      "params": {
+        "param_a": 10,
+        "param_b": 20,
+        "initial_capital": 10000.0,
+        "position_size_pct": 10.0,
+        "commission_pct": 0.1,
+        "slippage_pct": 0.05,
+        "max_positions": 1
+      },
+      "metrics": {
+        "sharpe_ratio": 1.5,
+        "max_drawdown": 10.0
+      }
+    },
+    {
+      "params": {
+        "param_a": 10,
+        "param_b": 30,
+        "initial_capital": 10000.0,
+        "position_size_pct": 10.0,
+        "commission_pct": 0.1,
+        "slippage_pct": 0.05,
+        "max_positions": 1
+      },
+      "metrics": {
+        "sharpe_ratio": 1.5,
+        "max_drawdown": 10.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+# Crypto Data Fetcher
+
+**A Python-based framework for fetching, analyzing, and backtesting cryptocurrency trading strategies.**
+
+This project provides a comprehensive solution for acquiring, managing, and analyzing cryptocurrency market data from various exchanges. It enables you to develop, backtest, and optimize trading strategies using a variety of technical indicators and risk analysis tools.
+
+## Table of Contents
+
+- [Project Overview](#project-overview)
+- [Core Architecture](#core-architecture)
+- [Key Modules](#key-modules)
+    - [Exchange Handlers](#exchange-handlers)
+    - [Data Storage](#data-storage)
+    - [Technical Indicators](#technical-indicators)
+    - [Strategy Framework](#strategy-framework)
+    - [Backtesting Components](#backtesting-components)
+    - [CLI and Utilities](#cli-and-utilities)
+- [Use Cases](#use-cases)
+    - [Historical Data Collection](#historical-data-collection)
+    - [Strategy Backtesting](#strategy-backtesting)
+    - [Strategy Optimization](#strategy-optimization)
+    - [Live Data Monitoring](#live-data-monitoring)
+    - [Multi-Exchange Analysis](#multi-exchange-analysis)
+- [Setup and Installation](#setup-and-installation)
+    - [Prerequisites](#prerequisites)
+    - [Virtual Environment Setup](#virtual-environment-setup)
+    - [Installing Dependencies](#installing-dependencies)
+- [Running the CLI](#running-the-cli)
+    - [Historical Data Fetching](#historical-data-fetching)
+    - [Live Data Fetching](#live-data-fetching)
+- [Customization and Extension](#customization-and-extension)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Project Overview
+
+This project is designed to be a robust and flexible tool for cryptocurrency traders and analysts. It offers a wide range of features, including:
+
+* **Multi-exchange support:** Fetch data from Binance, Coinbase, Drift, and Bitget.
+* **Historical and live data:** Acquire both historical and real-time market data.
+* **Standardized data models:** Consistent data representation across exchanges.
+* **Dual data storage:** Store both raw and processed (OHLCV) data.
+* **Technical analysis:** Implement and combine various technical indicators.
+* **Strategy backtesting:** Backtest strategies with realistic conditions (stop-loss, take-profit, commissions, slippage).
+* **Performance analysis:** Evaluate strategies with comprehensive metrics (Sharpe, Sortino, drawdowns).
+* **Risk analysis:** Use Monte Carlo simulations to assess risk.
+* **Command-line interface:** Easy-to-use CLI for all operations.
+
+## Core Architecture
+
+The project follows a modular architecture with distinct layers for data acquisition, storage, analysis, and backtesting. This ensures separation of concerns and facilitates extensibility.
+
+## Key Modules
+
+### Exchange Handlers
+
+* `BinanceHandler`, `CoinbaseHandler`, `DriftHandler`, `BitgetHandler`
+* Implement a standardized interface for fetching data from different exchanges.
+* Handle symbol mapping, rate limiting, and error handling.
+
+### Data Storage
+
+* `RawDataStorage`: Stores original exchange data.
+* `ProcessedDataStorage`: Stores standardized OHLCV data.
+* `LiveDataStorage`: Handles real-time data storage.
+
+### Technical Indicators
+
+* `SupertrendIndicator`, `KNNIndicator`, `LogisticRegressionIndicator`, `LorentzianIndicator`, etc.
+* Provide implementations for various technical indicators.
+* Can be easily extended with new indicators.
+
+### Strategy Framework
+
+* `BaseStrategy`:  Defines the core strategy interface.
+* `MultiIndicatorStrategy`:  Combines multiple indicators with weights.
+
+### Backtesting Components
+
+* `Backtester`:  The main backtesting engine.
+* `Position` & `Portfolio`:  Track positions and manage the portfolio.
+* `BacktestResult`:  Stores backtest results.
+* `PerformanceAnalyzer`:  Calculates performance metrics.
+* `MonteCarloSimulator`:  Performs risk analysis.
+* `StrategyOptimizer`:  Optimizes strategy parameters.
+
+### CLI and Utilities
+
+* `improved_cli.py`:  Enhanced command-line interface for user interaction.
+* `logging.py` & `logging_wrapper.py`:  Logging utilities for debugging and monitoring.
+* `fetch.py`:  Main entry point for running the application.
+
+## Use Cases
+
+### Historical Data Collection
+
+```bash
+python fetch.py historical --days 7 --markets BTC-PERP ETH-PERP SOL-PERP --resolution 1D
+Strategy Backtesting
+Test trading strategies against historical data.
+Analyze performance with comprehensive metrics.
+Visualize equity curves and drawdowns.
+Strategy Optimization
+Find optimal parameters for strategies.
+Walk-forward testing for robustness.
+Monte Carlo simulations for risk assessment.
+Live Data Monitoring
+Bash
+
+python fetch.py live --markets BTC-PERP ETH-PERP --resolution 15 --interval 30 
+Multi-Exchange Analysis
+Fetch and compare data from multiple exchanges.
+Standardize symbols across exchanges.
+Analyze discrepancies between markets.
+Setup and Installation
+Prerequisites
+Python 3.11 or higher
+pip package installer
+Virtual Environment Setup
+Navigate to the project directory:
+Bash
+
+cd /path/to/your/project
+Create a virtual environment:
+Bash
+
+python -m venv venv
+Activate the virtual environment:
+On Windows: venv\Scripts\activate
+On macOS/Linux: source venv/bin/activate   
+Installing Dependencies
+Install TA-Lib (if needed):
+Windows (recommended): Download a pre-compiled wheel file and install it using pip install <wheel_file_name>.
+macOS/Linux: Try pip install TA-Lib. If it fails, you might need to install system-level dependencies.
+Install other dependencies:
+Bash
+
+pip install -r requirements.txt
+Running the CLI
+Historical Data Fetching
+Bash
+
+python fetch.py historical --days <number_of_days> --markets <market_list> --resolution <resolution>
+--days: Number of days of historical data to fetch.
+--markets: Comma-separated list of markets (e.g., BTC-PERP,ETH-PERP).
+--resolution: Data resolution (e.g., 1m, 5m, 1h, 1D).
+Live Data Fetching
+Bash
+
+python fetch.py live --markets <market_list> --resolution <resolution> --interval <interval_seconds>
+--markets: Comma-separated list of markets.
+--resolution: Data resolution.
+--interval: Interval in seconds between data fetches.
+Customization and Extension
+Adding Exchanges: Create a new module in src/exchanges/ implementing the exchange handler interface.
+Implementing Indicators: Add new indicators in src/utils/indicators/.
+Developing Strategies: Create new strategies in src/utils/strategy/.

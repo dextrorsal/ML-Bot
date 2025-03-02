@@ -1,0 +1,163 @@
+{
+    "data_sources": {
+      "drift": {
+        "data_dir": "drift_data"
+      },
+      "yfinance": {
+        "interval": "5m",
+        "period": "1d"
+      },
+      "binance": {
+        "interval": "5m",
+        "start_str": "1 day ago UTC"
+      },
+      "coinbase": {
+        "timeframe": "5m",
+        "since": null
+      }
+    },
+    "backtest": {
+      "initial_cash": 10000,
+      "commission": 0.001
+    },
+    "indicators": {
+        "supertrend": {
+            "atr_length": 10,
+            "factor": 3,
+            "training_length": 100,
+            "kmeans_settings": {
+                "high_volatility_percentile": 0.75,
+                "medium_volatility_percentile": 0.50,
+                "low_volatility_percentile": 0.25
+            }
+        },
+        "logistic_regression": {
+            "price_type": "close", 
+            "resolution": "",  
+            "lookback": 10,
+            "norm_lookback": 10,
+            "learning_rate": 0.0009,
+            "iterations": 1000,
+            "filter_signals_by": "None",
+            "show_curves": false,
+            "easteregg": false,
+            "use_price_data": true,
+            "holding_period": 5,
+            "lot_size": 0.01
+          },
+          "rsi": {
+            "period": 14,
+            "overbought": 70,
+            "oversold": 30,
+            "filter_signals_by": "Both",
+            "holding_period": 3
+        },
+        "macd": {
+            "fast_period": 12,
+            "slow_period": 26,
+            "signal_period": 9,
+            "filter_signals_by": "Volatility",
+            "holding_period": 5
+        },
+        "stochastic": {
+            "k_period": 14,
+            "d_period": 3,
+            "overbought": 80,
+            "oversold": 20,
+            "smoothing": 3,
+            "filter_signals_by": "None",
+            "holding_period": 3
+        },
+        "cci": {
+            "period": 20,
+            "overbought": 100,
+            "oversold": -100,
+            "filter_signals_by": "None",
+            "holding_period": 3
+        },
+        "adx": {
+            "period": 14,
+            "threshold": 25,
+            "filter_signals_by": "None",
+            "holding_period": 3
+        },
+        "bollinger_bands": {
+            "period": 20,
+            "deviations": 2,
+            "filter_signals_by": "None",
+            "holding_period": 3
+        },
+        "williams_r": {
+            "period": 14,
+            "overbought": -20,
+            "oversold": -80,
+            "filter_signals_by": "None",
+            "holding_period": 3
+        },
+        "knn": {
+            "short_period": 14,
+            "long_period": 28,
+            "base_neighbors": 252,
+            "bar_threshold": 300,
+            "timeframe": "chart",
+            "volatility_filter": true,
+            "wait_for_close": true
+        },
+        "lorentzian": {
+            "general_settings": {
+                "neighbors_count": 8,
+                "max_bars_back": 5000,
+                "color_compression": 1,
+                "show_default_exits": true,
+                "use_dynamic_exits": false,
+                "use_worst_case_estimates": false
+            },
+            "features": [
+                {
+                    "type": "RSI",
+                    "parameter_a": 14,
+                    "parameter_b": 1
+                },
+                {
+                    "type": "WT",
+                    "parameter_a": 10,
+                    "parameter_b": 11
+                },
+                {
+                    "type": "CCI",
+                    "parameter_a": 20,
+                    "parameter_b": 1
+                },
+                {
+                    "type": "ADX",
+                    "parameter_a": 20,
+                    "parameter_b": 2
+                },
+                {
+                    "type": "RSI",
+                    "parameter_a": 9,
+                    "parameter_b": 1
+                }
+            ],
+            "filters": {
+                "use_volatility_filter": false,
+                "use_regime_filter": false,
+                "regime_threshold": -0.1,
+                "use_adx_filter": false,
+                "adx_threshold": 20,
+                "use_ema_filter": false,
+                "ema_period": 200,
+                "use_sma_filter": false,
+                "sma_period": 200
+            },
+            "kernel_settings": {
+                "lookback_window": 8,
+                "relative_weighting": 8,
+                "regression_level": 25,
+                "show_kernel_estimate": true,
+                "enhance_kernel_smoothing": false,
+                "lag": 0
+            }
+        }
+    }
+}

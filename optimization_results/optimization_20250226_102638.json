@@ -1,0 +1,278 @@
+{
+  "test_id": "optimization_20250226_102638",
+  "timestamp": "20250226_102638",
+  "strategy_class": "SupertrendIndicator",
+  "metric_name": "sharpe_ratio",
+  "higher_is_better": true,
+  "total_combinations": 9,
+  "best_params": {
+    "atr_length": 10,
+    "factor": 4.0,
+    "config_path": "src/tests/fixtures/indicator_settings.json",
+    "initial_capital": 10000.0,
+    "position_size_pct": 10.0,
+    "commission_pct": 0.1,
+    "slippage_pct": 0.05,
+    "max_positions": 1
+  },
+  "best_metrics": {
+    "total_return_pct": -0.790179165447169,
+    "annualized_return_pct": -1.9118931966548347,
+    "win_rate": 0.6666666666666666,
+    "max_drawdown": 1.6831281039723665,
+    "sharpe_ratio": -1.0772372902696818,
+    "total_trades": 3,
+    "profitable_trades": 2,
+    "avg_profit_trade": 39.02186829498892,
+    "avg_loss_trade": -157.06165313469467,
+    "largest_win": 47.91571344538816,
+    "largest_loss": -157.06165313469467,
+    "avg_trade_duration_hours": 904.0,
+    "profit_factor": 0.4968987339197826
+  },
+  "all_results": [
+    {
+      "params": {
+        "atr_length": 10,
+        "factor": 4.0,
+        "config_path": "src/tests/fixtures/indicator_settings.json",
+        "initial_capital": 10000.0,
+        "position_size_pct": 10.0,
+        "commission_pct": 0.1,
+        "slippage_pct": 0.05,
+        "max_positions": 1
+      },
+      "metrics": {
+        "total_return_pct": -0.790179165447169,
+        "annualized_return_pct": -1.9118931966548347,
+        "win_rate": 0.6666666666666666,
+        "max_drawdown": 1.6831281039723665,
+        "sharpe_ratio": -1.0772372902696818,
+        "total_trades": 3,
+        "profitable_trades": 2,
+        "avg_profit_trade": 39.02186829498892,
+        "avg_loss_trade": -157.06165313469467,
+        "largest_win": 47.91571344538816,
+        "largest_loss": -157.06165313469467,
+        "avg_trade_duration_hours": 904.0,
+        "profit_factor": 0.4968987339197826
+      }
+    },
+    {
+      "params": {
+        "atr_length": 14,
+        "factor": 4.0,
+        "config_path": "src/tests/fixtures/indicator_settings.json",
+        "initial_capital": 10000.0,
+        "position_size_pct": 10.0,
+        "commission_pct": 0.1,
+        "slippage_pct": 0.05,
+        "max_positions": 1
+      },
+      "metrics": {
+        "total_return_pct": -0.8043073705687132,
+        "annualized_return_pct": -1.9458796588430416,
+        "win_rate": 0.6666666666666666,
+        "max_drawdown": 1.6670380895823376,
+        "sharpe_ratio": -1.1192802081888809,
+        "total_trades": 3,
+        "profitable_trades": 2,
+        "avg_profit_trade": 41.187202373975005,
+        "avg_loss_trade": -162.80514180482058,
+        "largest_win": 46.96790850501461,
+        "largest_loss": -162.80514180482058,
+        "avg_trade_duration_hours": 856.0,
+        "profit_factor": 0.5059693068337167
+      }
+    },
+    {
+      "params": {
+        "atr_length": 20,
+        "factor": 3.0,
+        "config_path": "src/tests/fixtures/indicator_settings.json",
+        "initial_capital": 10000.0,
+        "position_size_pct": 10.0,
+        "commission_pct": 0.1,
+        "slippage_pct": 0.05,
+        "max_positions": 1
+      },
+      "metrics": {
+        "total_return_pct": -1.2820492386423243,
+        "annualized_return_pct": -3.0910428904205256,
+        "win_rate": 0.6666666666666666,
+        "max_drawdown": 1.7744188471533857,
+        "sharpe_ratio": -1.7927126331230983,
+        "total_trades": 3,
+        "profitable_trades": 2,
+        "avg_profit_trade": 22.99881460334807,
+        "avg_loss_trade": -174.20255307092964,
+        "largest_win": 34.51000627336358,
+        "largest_loss": -174.20255307092964,
+        "avg_trade_duration_hours": 856.0,
+        "profit_factor": 0.2640468144457527
+      }
+    },
+    {
+      "params": {
+        "atr_length": 14,
+        "factor": 3.0,
+        "config_path": "src/tests/fixtures/indicator_settings.json",
+        "initial_capital": 10000.0,
+        "position_size_pct": 10.0,
+        "commission_pct": 0.1,
+        "slippage_pct": 0.05,
+        "max_positions": 1
+      },
+      "metrics": {
+        "total_return_pct": -1.4248443954553713,
+        "annualized_return_pct": -3.431790265023149,
+        "win_rate": 0.6666666666666666,
+        "max_drawdown": 1.774418847153401,
+        "sharpe_ratio": -1.9332238184176698,
+        "total_trades": 3,
+        "profitable_trades": 2,
+        "avg_profit_trade": 15.733065082910269,
+        "avg_loss_trade": -173.9505697113568,
+        "largest_win": 19.99512403728916,
+        "largest_loss": -173.9505697113568,
+        "avg_trade_duration_hours": 920.0,
+        "profit_factor": 0.1808912164992248
+      }
+    },
+    {
+      "params": {
+        "atr_length": 10,
+        "factor": 3.0,
+        "config_path": "src/tests/fixtures/indicator_settings.json",
+        "initial_capital": 10000.0,
+        "position_size_pct": 10.0,
+        "commission_pct": 0.1,
+        "slippage_pct": 0.05,
+        "max_positions": 1
+      },
+      "metrics": {
+        "total_return_pct": -1.6325960319394817,
+        "annualized_return_pct": -3.9262791227900773,
+        "win_rate": 0.3333333333333333,
+        "max_drawdown": 1.7744188471533966,
+        "sharpe_ratio": -2.1829947905375424,
+        "total_trades": 3,
+        "profitable_trades": 1,
+        "avg_profit_trade": 11.446830459918873,
+        "avg_loss_trade": -87.35321682693308,
+        "largest_win": 11.446830459918873,
+        "largest_loss": -173.58396095174342,
+        "avg_trade_duration_hours": 952.0,
+        "profit_factor": 0.06552037163438235
+      }
+    },
+    {
+      "params": {
+        "atr_length": 20,
+        "factor": 2.0,
+        "config_path": "src/tests/fixtures/indicator_settings.json",
+        "initial_capital": 10000.0,
+        "position_size_pct": 10.0,
+        "commission_pct": 0.1,
+        "slippage_pct": 0.05,
+        "max_positions": 1
+      },
+      "metrics": {
+        "total_return_pct": -2.062544153857415,
+        "annualized_return_pct": -4.944892535271562,
+        "win_rate": 0.3333333333333333,
+        "max_drawdown": 2.218181659854921,
+        "sharpe_ratio": -2.823501527951461,
+        "total_trades": 3,
+        "profitable_trades": 1,
+        "avg_profit_trade": 8.38325731590789,
+        "avg_loss_trade": -107.31883635082447,
+        "largest_win": 8.38325731590789,
+        "largest_loss": -195.51157462239345,
+        "avg_trade_duration_hours": 920.0,
+        "profit_factor": 0.03905771624518498
+      }
+    },
+    {
+      "params": {
+        "atr_length": 14,
+        "factor": 2.0,
+        "config_path": "src/tests/fixtures/indicator_settings.json",
+        "initial_capital": 10000.0,
+        "position_size_pct": 10.0,
+        "commission_pct": 0.1,
+        "slippage_pct": 0.05,
+        "max_positions": 1
+      },
+      "metrics": {
+        "total_return_pct": -2.279273351520461,
+        "annualized_return_pct": -5.455934516462246,
+        "win_rate": 0.0,
+        "max_drawdown": 2.2857105298630804,
+        "sharpe_ratio": -3.04106396356838,
+        "total_trades": 3,
+        "profitable_trades": 0,
+        "avg_profit_trade": 0,
+        "avg_loss_trade": -75.97577838401524,
+        "largest_win": 0,
+        "largest_loss": -195.07892026828898,
+        "avg_trade_duration_hours": 968.0,
+        "profit_factor": 0.0
+      }
+    },
+    {
+      "params": {
+        "atr_length": 10,
+        "factor": 2.0,
+        "config_path": "src/tests/fixtures/indicator_settings.json",
+        "initial_capital": 10000.0,
+        "position_size_pct": 10.0,
+        "commission_pct": 0.1,
+        "slippage_pct": 0.05,
+        "max_positions": 1
+      },
+      "metrics": {
+        "total_return_pct": -2.4978659926178315,
+        "annualized_return_pct": -5.969727499835797,
+        "win_rate": 0.0,
+        "max_drawdown": 2.497865992617826,
+        "sharpe_ratio": -3.1876936155249505,
+        "total_trades": 3,
+        "profitable_trades": 0,
+        "avg_profit_trade": 0,
+        "avg_loss_trade": -83.26219975392763,
+        "largest_win": 0,
+        "largest_loss": -194.64254594048379,
+        "avg_trade_duration_hours": 1016.0,
+        "profit_factor": 0.0
+      }
+    },
+    {
+      "params": {
+        "atr_length": 20,
+        "factor": 4.0,
+        "config_path": "src/tests/fixtures/indicator_settings.json",
+        "initial_capital": 10000.0,
+        "position_size_pct": 10.0,
+        "commission_pct": 0.1,
+        "slippage_pct": 0.05,
+        "max_positions": 1
+      },
+      "metrics": {
+        "total_return_pct": -1.6147500109513158,
+        "annualized_return_pct": -3.883860860790944,
+        "win_rate": 0.0,
+        "max_drawdown": 1.6147500109513202,
+        "sharpe_ratio": -3.568659155824803,
+        "total_trades": 1,
+        "profitable_trades": 0,
+        "avg_profit_trade": 0,
+        "avg_loss_trade": -161.475001095132,
+        "largest_win": 0,
+        "largest_loss": -161.475001095132,
+        "avg_trade_duration_hours": 888.0,
+        "profit_factor": 0.0
+      }
+    }
+  ]
+}

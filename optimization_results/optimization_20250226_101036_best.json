@@ -1,0 +1,1030 @@
+{
+  "equity_curve": {
+    "0": [
+      {
+        "timestamp": "2023-01-02T00:00:00.000",
+        "equity": 10000.0,
+        "unrealized_pnl": 0.0,
+        "drawdown": 0.0
+      },
+      {
+        "timestamp": "2023-01-03T00:00:00.000",
+        "equity": 10000.0,
+        "unrealized_pnl": 0.0,
+        "drawdown": 0.0
+      },
+      {
+        "timestamp": "2023-01-04T00:00:00.000",
+        "equity": 10000.0,
+        "unrealized_pnl": 0.0,
+        "drawdown": 0.0
+      },
+      {
+        "timestamp": "2023-01-05T00:00:00.000",
+        "equity": 10000.0,
+        "unrealized_pnl": 0.0,
+        "drawdown": 0.0
+      },
+      {
+        "timestamp": "2023-01-06T00:00:00.000",
+        "equity": 10000.0,
+        "unrealized_pnl": 0.0,
+        "drawdown": 0.0
+      },
+      {
+        "timestamp": "2023-01-07T00:00:00.000",
+        "equity": 10000.0,
+        "unrealized_pnl": 0.0,
+        "drawdown": 0.0
+      },
+      {
+        "timestamp": "2023-01-08T00:00:00.000",
+        "equity": 10000.0,
+        "unrealized_pnl": 0.0,
+        "drawdown": 0.0
+      },
+      {
+        "timestamp": "2023-01-09T00:00:00.000",
+        "equity": 10000.0,
+        "unrealized_pnl": 0.0,
+        "drawdown": 0.0
+      },
+      {
+        "timestamp": "2023-01-10T00:00:00.000",
+        "equity": 10000.0,
+        "unrealized_pnl": 0.0,
+        "drawdown": 0.0
+      },
+      {
+        "timestamp": "2023-01-11T00:00:00.000",
+        "equity": 10000.0,
+        "unrealized_pnl": 0.0,
+        "drawdown": 0.0
+      },
+      {
+        "timestamp": "2023-01-12T00:00:00.000",
+        "equity": 10000.0,
+        "unrealized_pnl": 0.0,
+        "drawdown": 0.0
+      },
+      {
+        "timestamp": "2023-01-13T00:00:00.000",
+        "equity": 10000.0,
+        "unrealized_pnl": 0.0,
+        "drawdown": 0.0
+      },
+      {
+        "timestamp": "2023-01-14T00:00:00.000",
+        "equity": 10000.0,
+        "unrealized_pnl": 0.0,
+        "drawdown": 0.0
+      },
+      {
+        "timestamp": "2023-01-15T00:00:00.000",
+        "equity": 10000.0,
+        "unrealized_pnl": 0.0,
+        "drawdown": 0.0
+      },
+      {
+        "timestamp": "2023-01-16T00:00:00.000",
+        "equity": 10000.0,
+        "unrealized_pnl": 0.0,
+        "drawdown": 0.0
+      },
+      {
+        "timestamp": "2023-01-17T00:00:00.000",
+        "equity": 10000.0,
+        "unrealized_pnl": 0.0,
+        "drawdown": 0.0
+      },
+      {
+        "timestamp": "2023-01-18T00:00:00.000",
+        "equity": 10000.0,
+        "unrealized_pnl": 0.0,
+        "drawdown": 0.0
+      },
+      {
+        "timestamp": "2023-01-19T00:00:00.000",
+        "equity": 10000.0,
+        "unrealized_pnl": 0.0,
+        "drawdown": 0.0
+      },
+      {
+        "timestamp": "2023-01-20T00:00:00.000",
+        "equity": 10000.0,
+        "unrealized_pnl": 0.0,
+        "drawdown": 0.0
+      },
+      {
+        "timestamp": "2023-01-21T00:00:00.000",
+        "equity": 10000.0,
+        "unrealized_pnl": 0.0,
+        "drawdown": 0.0
+      },
+      {
+        "timestamp": "2023-01-22T00:00:00.000",
+        "equity": 10000.0,
+        "unrealized_pnl": 0.0,
+        "drawdown": 0.0
+      },
+      {
+        "timestamp": "2023-01-23T00:00:00.000",
+        "equity": 10000.0,
+        "unrealized_pnl": 0.0,
+        "drawdown": 0.0
+      },
+      {
+        "timestamp": "2023-01-24T00:00:00.000",
+        "equity": 10000.0,
+        "unrealized_pnl": 0.0,
+        "drawdown": 0.0
+      },
+      {
+        "timestamp": "2023-01-25T00:00:00.000",
+        "equity": 10000.0,
+        "unrealized_pnl": 0.0,
+        "drawdown": 0.0
+      },
+      {
+        "timestamp": "2023-01-26T00:00:00.000",
+        "equity": 10000.0,
+        "unrealized_pnl": 0.0,
+        "drawdown": 0.0
+      },
+      {
+        "timestamp": "2023-01-27T00:00:00.000",
+        "equity": 10000.0,
+        "unrealized_pnl": 0.0,
+        "drawdown": 0.0
+      },
+      {
+        "timestamp": "2023-01-28T00:00:00.000",
+        "equity": 10000.0,
+        "unrealized_pnl": 0.0,
+        "drawdown": 0.0
+      },
+      {
+        "timestamp": "2023-01-29T00:00:00.000",
+        "equity": 10000.0,
+        "unrealized_pnl": 0.0,
+        "drawdown": 0.0
+      },
+      {
+        "timestamp": "2023-01-30T00:00:00.000",
+        "equity": 10000.0,
+        "unrealized_pnl": 0.0,
+        "drawdown": 0.0
+      },
+      {
+        "timestamp": "2023-01-31T00:00:00.000",
+        "equity": 10000.0,
+        "unrealized_pnl": 0.0,
+        "drawdown": 0.0
+      },
+      {
+        "timestamp": "2023-02-01T00:00:00.000",
+        "equity": 10000.0,
+        "unrealized_pnl": 0.0,
+        "drawdown": 0.0
+      },
+      {
+        "timestamp": "2023-02-02T00:00:00.000",
+        "equity": 10000.0,
+        "unrealized_pnl": 0.0,
+        "drawdown": 0.0
+      },
+      {
+        "timestamp": "2023-02-03T00:00:00.000",
+        "equity": 10000.0,
+        "unrealized_pnl": 0.0,
+        "drawdown": 0.0
+      },
+      {
+        "timestamp": "2023-02-04T00:00:00.000",
+        "equity": 10000.0,
+        "unrealized_pnl": 0.0,
+        "drawdown": 0.0
+      },
+      {
+        "timestamp": "2023-02-05T00:00:00.000",
+        "equity": 10000.0,
+        "unrealized_pnl": 0.0,
+        "drawdown": 0.0
+      },
+      {
+        "timestamp": "2023-02-06T00:00:00.000",
+        "equity": 10000.0,
+        "unrealized_pnl": 0.0,
+        "drawdown": 0.0
+      },
+      {
+        "timestamp": "2023-02-07T00:00:00.000",
+        "equity": 10000.0,
+        "unrealized_pnl": 0.0,
+        "drawdown": 0.0
+      },
+      {
+        "timestamp": "2023-02-08T00:00:00.000",
+        "equity": 10000.0,
+        "unrealized_pnl": 0.0,
+        "drawdown": 0.0
+      },
+      {
+        "timestamp": "2023-02-09T00:00:00.000",
+        "equity": 10000.0,
+        "unrealized_pnl": 0.0,
+        "drawdown": 0.0
+      },
+      {
+        "timestamp": "2023-02-10T00:00:00.000",
+        "equity": 10000.0,
+        "unrealized_pnl": 0.0,
+        "drawdown": 0.0
+      },
+      {
+        "timestamp": "2023-02-11T00:00:00.000",
+        "equity": 10000.0,
+        "unrealized_pnl": 0.0,
+        "drawdown": 0.0
+      },
+      {
+        "timestamp": "2023-02-12T00:00:00.000",
+        "equity": 10000.0,
+        "unrealized_pnl": 0.0,
+        "drawdown": 0.0
+      },
+      {
+        "timestamp": "2023-02-13T00:00:00.000",
+        "equity": 10000.0,
+        "unrealized_pnl": 0.0,
+        "drawdown": 0.0
+      },
+      {
+        "timestamp": "2023-02-14T00:00:00.000",
+        "equity": 10000.0,
+        "unrealized_pnl": 0.0,
+        "drawdown": 0.0
+      },
+      {
+        "timestamp": "2023-02-15T00:00:00.000",
+        "equity": 10000.0,
+        "unrealized_pnl": 0.0,
+        "drawdown": 0.0
+      },
+      {
+        "timestamp": "2023-02-16T00:00:00.000",
+        "equity": 10000.0,
+        "unrealized_pnl": 0.0,
+        "drawdown": 0.0
+      },
+      {
+        "timestamp": "2023-02-17T00:00:00.000",
+        "equity": 10000.0,
+        "unrealized_pnl": 0.0,
+        "drawdown": 0.0
+      },
+      {
+        "timestamp": "2023-02-18T00:00:00.000",
+        "equity": 10000.0,
+        "unrealized_pnl": 0.0,
+        "drawdown": 0.0
+      },
+      {
+        "timestamp": "2023-02-19T00:00:00.000",
+        "equity": 10000.0,
+        "unrealized_pnl": 0.0,
+        "drawdown": 0.0
+      },
+      {
+        "timestamp": "2023-02-20T00:00:00.000",
+        "equity": 10000.0,
+        "unrealized_pnl": 0.0,
+        "drawdown": 0.0
+      },
+      {
+        "timestamp": "2023-02-21T00:00:00.000",
+        "equity": 10000.0,
+        "unrealized_pnl": 0.0,
+        "drawdown": 0.0
+      },
+      {
+        "timestamp": "2023-02-22T00:00:00.000",
+        "equity": 10000.0,
+        "unrealized_pnl": 0.0,
+        "drawdown": 0.0
+      },
+      {
+        "timestamp": "2023-02-23T00:00:00.000",
+        "equity": 9997.0980157524,
+        "unrealized_pnl": -2.9019842476,
+        "drawdown": 0.0290198425
+      },
+      {
+        "timestamp": "2023-02-24T00:00:00.000",
+        "equity": 9990.8486904207,
+        "unrealized_pnl": -9.1513095793,
+        "drawdown": 0.0915130958
+      },
+      {
+        "timestamp": "2023-02-25T00:00:00.000",
+        "equity": 9999.9264673498,
+        "unrealized_pnl": -0.0735326502,
+        "drawdown": 0.0007353265
+      },
+      {
+        "timestamp": "2023-02-26T00:00:00.000",
+        "equity": 10005.6521077645,
+        "unrealized_pnl": 5.6521077645,
+        "drawdown": 0.0
+      },
+      {
+        "timestamp": "2023-02-27T00:00:00.000",
+        "equity": 10000.7155030763,
+        "unrealized_pnl": 0.7155030763,
+        "drawdown": 0.0493381604
+      },
+      {
+        "timestamp": "2023-02-28T00:00:00.000",
+        "equity": 10011.8348188076,
+        "unrealized_pnl": 11.8348188076,
+        "drawdown": 0.0
+      },
+      {
+        "timestamp": "2023-03-01T00:00:00.000",
+        "equity": 10007.4666190133,
+        "unrealized_pnl": 7.4666190133,
+        "drawdown": 0.0436303622
+      },
+      {
+        "timestamp": "2023-03-02T00:00:00.000",
+        "equity": 10008.757907018,
+        "unrealized_pnl": 8.757907018,
+        "drawdown": 0.0307327462
+      },
+      {
+        "timestamp": "2023-03-03T00:00:00.000",
+        "equity": 10010.1948507096,
+        "unrealized_pnl": 10.1948507096,
+        "drawdown": 0.0163802952
+      },
+      {
+        "timestamp": "2023-03-04T00:00:00.000",
+        "equity": 10015.5027868366,
+        "unrealized_pnl": 15.5027868366,
+        "drawdown": 0.0
+      },
+      {
+        "timestamp": "2023-03-05T00:00:00.000",
+        "equity": 10009.9608199957,
+        "unrealized_pnl": 9.9608199957,
+        "drawdown": 0.0553338855
+      },
+      {
+        "timestamp": "2023-03-06T00:00:00.000",
+        "equity": 10028.4148496142,
+        "unrealized_pnl": 28.4148496142,
+        "drawdown": 0.0
+      },
+      {
+        "timestamp": "2023-03-07T00:00:00.000",
+        "equity": 10014.6035946442,
+        "unrealized_pnl": 14.6035946442,
+        "drawdown": 0.1377212169
+      },
+      {
+        "timestamp": "2023-03-08T00:00:00.000",
+        "equity": 10031.2101972117,
+        "unrealized_pnl": 31.2101972117,
+        "drawdown": 0.0
+      },
+      {
+        "timestamp": "2023-03-09T00:00:00.000",
+        "equity": 10026.954321543,
+        "unrealized_pnl": 26.954321543,
+        "drawdown": 0.0424263432
+      },
+      {
+        "timestamp": "2023-03-10T00:00:00.000",
+        "equity": 10027.0959303544,
+        "unrealized_pnl": 27.0959303544,
+        "drawdown": 0.041014661
+      },
+      {
+        "timestamp": "2023-03-11T00:00:00.000",
+        "equity": 10037.3471533636,
+        "unrealized_pnl": 37.3471533636,
+        "drawdown": 0.0
+      },
+      {
+        "timestamp": "2023-03-12T00:00:00.000",
+        "equity": 10036.2711045308,
+        "unrealized_pnl": 36.2711045308,
+        "drawdown": 0.0107204505
+      },
+      {
+        "timestamp": "2023-03-13T00:00:00.000",
+        "equity": 10035.6915420395,
+        "unrealized_pnl": 35.6915420395,
+        "drawdown": 0.0164945109
+      },
+      {
+        "timestamp": "2023-03-14T00:00:00.000",
+        "equity": 10030.1158739563,
+        "unrealized_pnl": 30.1158739563,
+        "drawdown": 0.0720437312
+      },
+      {
+        "timestamp": "2023-03-15T00:00:00.000",
+        "equity": 10034.5261605733,
+        "unrealized_pnl": 34.5261605733,
+        "drawdown": 0.0281049639
+      },
+      {
+        "timestamp": "2023-03-16T00:00:00.000",
+        "equity": 10032.3715498328,
+        "unrealized_pnl": 32.3715498328,
+        "drawdown": 0.0495709021
+      },
+      {
+        "timestamp": "2023-03-17T00:00:00.000",
+        "equity": 10046.1200549279,
+        "unrealized_pnl": 46.1200549279,
+        "drawdown": 0.0
+      },
+      {
+        "timestamp": "2023-03-18T00:00:00.000",
+        "equity": 10044.4279908674,
+        "unrealized_pnl": 44.4279908674,
+        "drawdown": 0.0168429608
+      },
+      {
+        "timestamp": "2023-03-19T00:00:00.000",
+        "equity": 10041.0183369574,
+        "unrealized_pnl": 41.0183369574,
+        "drawdown": 0.0507829684
+      },
+      {
+        "timestamp": "2023-03-20T00:00:00.000",
+        "equity": 10040.9848078226,
+        "unrealized_pnl": 40.9848078226,
+        "drawdown": 0.0511167205
+      },
+      {
+        "timestamp": "2023-03-21T00:00:00.000",
+        "equity": 10041.6676446705,
+        "unrealized_pnl": 41.6676446705,
+        "drawdown": 0.0443196999
+      },
+      {
+        "timestamp": "2023-03-22T00:00:00.000",
+        "equity": 10043.8636779614,
+        "unrealized_pnl": 43.8636779614,
+        "drawdown": 0.0224601832
+      },
+      {
+        "timestamp": "2023-03-23T00:00:00.000",
+        "equity": 10050.2500048962,
+        "unrealized_pnl": 50.2500048962,
+        "drawdown": 0.0
+      },
+      {
+        "timestamp": "2023-03-24T00:00:00.000",
+        "equity": 10050.4232687048,
+        "unrealized_pnl": 50.4232687048,
+        "drawdown": 0.0
+      },
+      {
+        "timestamp": "2023-03-25T00:00:00.000",
+        "equity": 10062.5663245591,
+        "unrealized_pnl": 62.5663245591,
+        "drawdown": 0.0
+      },
+      {
+        "timestamp": "2023-03-26T00:00:00.000",
+        "equity": 10047.1923926523,
+        "unrealized_pnl": 47.1923926523,
+        "drawdown": 0.1527834094
+      },
+      {
+        "timestamp": "2023-03-27T00:00:00.000",
+        "equity": 10055.7521310641,
+        "unrealized_pnl": 55.7521310641,
+        "drawdown": 0.0677182468
+      },
+      {
+        "timestamp": "2023-03-28T00:00:00.000",
+        "equity": 10061.8431979198,
+        "unrealized_pnl": 61.8431979198,
+        "drawdown": 0.0071863043
+      },
+      {
+        "timestamp": "2023-03-29T00:00:00.000",
+        "equity": 10063.9537804472,
+        "unrealized_pnl": 63.9537804472,
+        "drawdown": 0.0
+      },
+      {
+        "timestamp": "2023-03-30T00:00:00.000",
+        "equity": 10061.4231297049,
+        "unrealized_pnl": 61.4231297049,
+        "drawdown": 0.0251456912
+      },
+      {
+        "timestamp": "2023-03-31T00:00:00.000",
+        "equity": 10061.2674016361,
+        "unrealized_pnl": 61.2674016361,
+        "drawdown": 0.0266930758
+      },
+      {
+        "timestamp": "2023-04-01T00:00:00.000",
+        "equity": 10059.8048015029,
+        "unrealized_pnl": 59.8048015029,
+        "drawdown": 0.0412261327
+      },
+      {
+        "timestamp": "2023-04-02T00:00:00.000",
+        "equity": 10061.2955393935,
+        "unrealized_pnl": 61.2955393935,
+        "drawdown": 0.0264134863
+      },
+      {
+        "timestamp": "2023-04-03T00:00:00.000",
+        "equity": 10062.0954446645,
+        "unrealized_pnl": 62.0954446645,
+        "drawdown": 0.0184652655
+      },
+      {
+        "timestamp": "2023-04-04T00:00:00.000",
+        "equity": 10064.0836571309,
+        "unrealized_pnl": 64.0836571309,
+        "drawdown": 0.0
+      },
+      {
+        "timestamp": "2023-04-05T00:00:00.000",
+        "equity": 10073.7940237631,
+        "unrealized_pnl": 73.7940237631,
+        "drawdown": 0.0
+      },
+      {
+        "timestamp": "2023-04-06T00:00:00.000",
+        "equity": 10071.0970240807,
+        "unrealized_pnl": 71.0970240807,
+        "drawdown": 0.0267724323
+      },
+      {
+        "timestamp": "2023-04-07T00:00:00.000",
+        "equity": 10062.5836407944,
+        "unrealized_pnl": -7.1210648709,
+        "drawdown": 0.1112826304
+      },
+      {
+        "timestamp": "2023-04-08T00:00:00.000",
+        "equity": 10061.686865264,
+        "unrealized_pnl": -8.0178404013,
+        "drawdown": 0.1201846938
+      },
+      {
+        "timestamp": "2023-04-09T00:00:00.000",
+        "equity": 10053.8202631586,
+        "unrealized_pnl": -15.8844425067,
+        "drawdown": 0.198274459
+      },
+      {
+        "timestamp": "2023-04-10T00:00:00.000",
+        "equity": 10052.1948083334,
+        "unrealized_pnl": -17.5098973319,
+        "drawdown": 0.2144099371
+      },
+      {
+        "timestamp": "2023-04-11T00:00:00.000",
+        "equity": 10055.4300628124,
+        "unrealized_pnl": -14.2746428529,
+        "drawdown": 0.1822943859
+      },
+      {
+        "timestamp": "2023-04-12T00:00:00.000",
+        "equity": 10069.0772364402,
+        "unrealized_pnl": -0.6274692251,
+        "drawdown": 0.0468223523
+      },
+      {
+        "timestamp": "2023-04-13T00:00:00.000",
+        "equity": 10062.0944201575,
+        "unrealized_pnl": -7.6102855078,
+        "drawdown": 0.1161389996
+      },
+      {
+        "timestamp": "2023-04-14T00:00:00.000",
+        "equity": 10078.2563309707,
+        "unrealized_pnl": 8.5516253054,
+        "drawdown": 0.0
+      },
+      {
+        "timestamp": "2023-04-15T00:00:00.000",
+        "equity": 10080.8403426309,
+        "unrealized_pnl": 11.1356369656,
+        "drawdown": 0.0
+      },
+      {
+        "timestamp": "2023-04-16T00:00:00.000",
+        "equity": 10098.9686220693,
+        "unrealized_pnl": 29.263916404,
+        "drawdown": 0.0
+      },
+      {
+        "timestamp": "2023-04-17T00:00:00.000",
+        "equity": 10098.3372491176,
+        "unrealized_pnl": 28.6325434523,
+        "drawdown": 0.0062518558
+      },
+      {
+        "timestamp": "2023-04-18T00:00:00.000",
+        "equity": 10093.0560206569,
+        "unrealized_pnl": 23.3513149916,
+        "drawdown": 0.0585465866
+      },
+      {
+        "timestamp": "2023-04-19T00:00:00.000",
+        "equity": 10103.7674601767,
+        "unrealized_pnl": 34.0627545114,
+        "drawdown": 0.0
+      },
+      {
+        "timestamp": "2023-04-20T00:00:00.000",
+        "equity": 10105.0416150162,
+        "unrealized_pnl": 35.3369093509,
+        "drawdown": 0.0
+      },
+      {
+        "timestamp": "2023-04-21T00:00:00.000",
+        "equity": 10119.9317952315,
+        "unrealized_pnl": 50.2270895662,
+        "drawdown": 0.0
+      },
+      {
+        "timestamp": "2023-04-22T00:00:00.000",
+        "equity": 10125.5218298819,
+        "unrealized_pnl": 55.8171242165,
+        "drawdown": 0.0
+      },
+      {
+        "timestamp": "2023-04-23T00:00:00.000",
+        "equity": 10121.7329112587,
+        "unrealized_pnl": 52.0282055934,
+        "drawdown": 0.0374194899
+      },
+      {
+        "timestamp": "2023-04-24T00:00:00.000",
+        "equity": 10138.9502706355,
+        "unrealized_pnl": 69.2455649702,
+        "drawdown": 0.0
+      },
+      {
+        "timestamp": "2023-04-25T00:00:00.000",
+        "equity": 10132.0634653949,
+        "unrealized_pnl": 62.3587597296,
+        "drawdown": 0.0679242432
+      },
+      {
+        "timestamp": "2023-04-26T00:00:00.000",
+        "equity": 10122.243976596,
+        "unrealized_pnl": -8.2145196658,
+        "drawdown": 0.1647734094
+      },
+      {
+        "timestamp": "2023-04-27T00:00:00.000",
+        "equity": 10108.021805458,
+        "unrealized_pnl": -22.4366908039,
+        "drawdown": 0.3050460289
+      },
+      {
+        "timestamp": "2023-04-28T00:00:00.000",
+        "equity": 10104.3912789513,
+        "unrealized_pnl": -26.0672173105,
+        "drawdown": 0.3408537448
+      },
+      {
+        "timestamp": "2023-04-29T00:00:00.000",
+        "equity": 10094.2037751236,
+        "unrealized_pnl": -36.2547211382,
+        "drawdown": 0.4413326263
+      },
+      {
+        "timestamp": "2023-04-30T00:00:00.000",
+        "equity": 10096.4440927945,
+        "unrealized_pnl": -34.0144034674,
+        "drawdown": 0.4192364762
+      },
+      {
+        "timestamp": "2023-05-01T00:00:00.000",
+        "equity": 10102.814030066,
+        "unrealized_pnl": -27.6444661958,
+        "drawdown": 0.356410078
+      },
+      {
+        "timestamp": "2023-05-02T00:00:00.000",
+        "equity": 10085.3781928948,
+        "unrealized_pnl": -45.080303367,
+        "drawdown": 0.5283789378
+      },
+      {
+        "timestamp": "2023-05-03T00:00:00.000",
+        "equity": 10092.7309086175,
+        "unrealized_pnl": -37.7275876443,
+        "drawdown": 0.4558594409
+      },
+      {
+        "timestamp": "2023-05-04T00:00:00.000",
+        "equity": 10091.8745874986,
+        "unrealized_pnl": -38.5839087632,
+        "drawdown": 0.4643052967
+      },
+      {
+        "timestamp": "2023-05-05T00:00:00.000",
+        "equity": 10090.0483417619,
+        "unrealized_pnl": -40.4101544999,
+        "drawdown": 0.4823174744
+      },
+      {
+        "timestamp": "2023-05-06T00:00:00.000",
+        "equity": 10083.667669242,
+        "unrealized_pnl": -46.7908270198,
+        "drawdown": 0.5452497538
+      },
+      {
+        "timestamp": "2023-05-07T00:00:00.000",
+        "equity": 10079.8875538673,
+        "unrealized_pnl": -50.5709423945,
+        "drawdown": 0.5825328579
+      },
+      {
+        "timestamp": "2023-05-08T00:00:00.000",
+        "equity": 10069.9545303226,
+        "unrealized_pnl": -60.5039659392,
+        "drawdown": 0.680501812
+      },
+      {
+        "timestamp": "2023-05-09T00:00:00.000",
+        "equity": 10057.1791011219,
+        "unrealized_pnl": -73.27939514,
+        "drawdown": 0.8065052824
+      },
+      {
+        "timestamp": "2023-05-10T00:00:00.000",
+        "equity": 10052.4486915168,
+        "unrealized_pnl": -78.009804745,
+        "drawdown": 0.8531610947
+      },
+      {
+        "timestamp": "2023-05-11T00:00:00.000",
+        "equity": 10048.0883546025,
+        "unrealized_pnl": -82.3701416594,
+        "drawdown": 0.896166897
+      },
+      {
+        "timestamp": "2023-05-12T00:00:00.000",
+        "equity": 10056.6969124289,
+        "unrealized_pnl": -73.7615838329,
+        "drawdown": 0.8112610873
+      },
+      {
+        "timestamp": "2023-05-13T00:00:00.000",
+        "equity": 10038.4258998921,
+        "unrealized_pnl": -92.0325963697,
+        "drawdown": 0.9914672433
+      },
+      {
+        "timestamp": "2023-05-14T00:00:00.000",
+        "equity": 10052.1839243096,
+        "unrealized_pnl": -78.2745719522,
+        "drawdown": 0.8557724815
+      },
+      {
+        "timestamp": "2023-05-15T00:00:00.000",
+        "equity": 10040.3660972061,
+        "unrealized_pnl": -90.0923990558,
+        "drawdown": 0.9723311664
+      },
+      {
+        "timestamp": "2023-05-16T00:00:00.000",
+        "equity": 10038.853068539,
+        "unrealized_pnl": -91.6054277228,
+        "drawdown": 0.9872540985
+      },
+      {
+        "timestamp": "2023-05-17T00:00:00.000",
+        "equity": 10035.5072471337,
+        "unrealized_pnl": -94.9512491281,
+        "drawdown": 1.0202537811
+      },
+      {
+        "timestamp": "2023-05-18T00:00:00.000",
+        "equity": 10018.1371713897,
+        "unrealized_pnl": -112.3213248721,
+        "drawdown": 1.1915740389
+      },
+      {
+        "timestamp": "2023-05-19T00:00:00.000",
+        "equity": 10024.7184732783,
+        "unrealized_pnl": -105.7400229835,
+        "drawdown": 1.1266629612
+      },
+      {
+        "timestamp": "2023-05-20T00:00:00.000",
+        "equity": 10010.1154028241,
+        "unrealized_pnl": -120.3430934377,
+        "drawdown": 1.2706923732
+      },
+      {
+        "timestamp": "2023-05-21T00:00:00.000",
+        "equity": 10019.9188185469,
+        "unrealized_pnl": -110.5396777149,
+        "drawdown": 1.174001735
+      },
+      {
+        "timestamp": "2023-05-22T00:00:00.000",
+        "equity": 10008.6789477594,
+        "unrealized_pnl": -121.7795485024,
+        "drawdown": 1.2848600634
+      },
+      {
+        "timestamp": "2023-05-23T00:00:00.000",
+        "equity": 9999.972777395,
+        "unrealized_pnl": -130.4857188669,
+        "drawdown": 1.3707286211
+      },
+      {
+        "timestamp": "2023-05-24T00:00:00.000",
+        "equity": 10000.6562784406,
+        "unrealized_pnl": -129.8022178212,
+        "drawdown": 1.3639872818
+      },
+      {
+        "timestamp": "2023-05-25T00:00:00.000",
+        "equity": 10004.0838506899,
+        "unrealized_pnl": -126.3746455719,
+        "drawdown": 1.3301812944
+      },
+      {
+        "timestamp": "2023-05-26T00:00:00.000",
+        "equity": 10000.4381619024,
+        "unrealized_pnl": -130.0203343594,
+        "drawdown": 1.3661385551
+      },
+      {
+        "timestamp": "2023-05-27T00:00:00.000",
+        "equity": 9980.3164579197,
+        "unrealized_pnl": -150.1420383421,
+        "drawdown": 1.5645979957
+      },
+      {
+        "timestamp": "2023-05-28T00:00:00.000",
+        "equity": 9990.4771586739,
+        "unrealized_pnl": -139.9813375879,
+        "drawdown": 1.4643834716
+      },
+      {
+        "timestamp": "2023-05-29T00:00:00.000",
+        "equity": 9988.9507809992,
+        "unrealized_pnl": -141.5077152626,
+        "drawdown": 1.4794380644
+      },
+      {
+        "timestamp": "2023-05-30T00:00:00.000",
+        "equity": 9987.0598101138,
+        "unrealized_pnl": -143.398686148,
+        "drawdown": 1.4980886233
+      },
+      {
+        "timestamp": "2023-05-31T00:00:00.000",
+        "equity": 9966.2997311982,
+        "unrealized_pnl": -164.1587650636,
+        "drawdown": 1.7028443264
+      },
+      {
+        "timestamp": "2023-06-01T00:00:00.000",
+        "equity": 9968.1186869815,
+        "unrealized_pnl": -162.3398092803,
+        "drawdown": 1.6849040492
+      }
+    ]
+  },
+  "positions": {
+    "0": [
+      {
+        "entry_price": 22573.6855941308,
+        "entry_time": "2023-02-22T00:00:00.000",
+        "position_size": 0.0442550684,
+        "direction": "SHORT",
+        "exit_price": 20998.6184168335,
+        "exit_time": "2023-04-06T00:00:00.000",
+        "pnl": 69.7047056653,
+        "pnl_pct": 6.9774480145,
+        "status": "CLOSED",
+        "stop_loss": null,
+        "take_profit": null,
+        "exit_reason": "SIGNAL",
+        "duration_hours": 1032.0
+      },
+      {
+        "entry_price": 20998.6184168335,
+        "entry_time": "2023-04-06T00:00:00.000",
+        "position_size": 0.0480020838,
+        "direction": "LONG",
+        "exit_price": 22264.2674424703,
+        "exit_time": "2023-04-25T00:00:00.000",
+        "pnl": 60.7537905965,
+        "pnl_pct": 6.027296656,
+        "status": "CLOSED",
+        "stop_loss": null,
+        "take_profit": null,
+        "exit_reason": "SIGNAL",
+        "duration_hours": 456.0
+      },
+      {
+        "entry_price": 22264.2674424703,
+        "entry_time": "2023-04-25T00:00:00.000",
+        "position_size": 0.0454554728,
+        "direction": "SHORT",
+        "exit_price": 25835.6703820668,
+        "exit_time": "2023-06-01T00:00:00.000",
+        "pnl": -162.3398092803,
+        "pnl_pct": -16.0409631659,
+        "status": "CLOSED",
+        "stop_loss": null,
+        "take_profit": null,
+        "exit_reason": "END_OF_BACKTEST",
+        "duration_hours": 888.0
+      }
+    ]
+  },
+  "test_params.start_time": {
+    "0": "2023-01-01T00:00:00.000"
+  },
+  "test_params.end_time": {
+    "0": "2023-06-01T00:00:00.000"
+  },
+  "test_params.initial_capital": {
+    "0": 10000.0
+  },
+  "test_params.position_size_pct": {
+    "0": 10.0
+  },
+  "test_params.stop_loss_pct": {
+    "0": null
+  },
+  "test_params.take_profit_pct": {
+    "0": null
+  },
+  "test_params.max_positions": {
+    "0": 1
+  },
+  "test_params.commission_pct": {
+    "0": 0.1
+  },
+  "test_params.slippage_pct": {
+    "0": 0.05
+  },
+  "test_params.strategy": {
+    "0": "SupertrendIndicator"
+  },
+  "metrics.total_return_pct": {
+    "0": -0.3188131302
+  },
+  "metrics.annualized_return_pct": {
+    "0": -0.7740069131
+  },
+  "metrics.win_rate": {
+    "0": 0.6666666667
+  },
+  "metrics.max_drawdown": {
+    "0": 1.7028443264
+  },
+  "metrics.sharpe_ratio": {
+    "0": -0.4656514745
+  },
+  "metrics.total_trades": {
+    "0": 3
+  },
+  "metrics.profitable_trades": {
+    "0": 2
+  },
+  "metrics.avg_profit_trade": {
+    "0": 65.2292481309
+  },
+  "metrics.avg_loss_trade": {
+    "0": -162.3398092803
+  },
+  "metrics.largest_win": {
+    "0": 69.7047056653
+  },
+  "metrics.largest_loss": {
+    "0": -162.3398092803
+  },
+  "metrics.avg_trade_duration_hours": {
+    "0": 792.0
+  },
+  "metrics.profit_factor": {
+    "0": 0.803613709
+  }
+}

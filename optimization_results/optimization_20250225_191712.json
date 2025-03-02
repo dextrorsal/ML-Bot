@@ -1,0 +1,11 @@
+{
+  "test_id": "optimization_20250225_191712",
+  "timestamp": "20250225_191712",
+  "strategy_class": "SupertrendIndicator",
+  "metric_name": "sharpe_ratio",
+  "higher_is_better": true,
+  "total_combinations": 9,
+  "best_params": null,
+  "best_metrics": null,
+  "all_results": []
+}
