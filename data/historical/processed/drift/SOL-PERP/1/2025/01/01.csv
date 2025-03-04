@@ -1,2 +1,0 @@
-timestamp,open,high,low,close,volume,source,resolution,market,raw_data
-2025-01-01T00:00:00+00:00,0.0,0.0,0.0,0.0,0.0,drift,1,SOL-PERP,"{'start': 1735689600000.0, 'fillOpen': 188.8657, 'fillClose': 189.061829, 'fillHigh': 189.061829, 'fillLow': 188.7394, 'oracleOpen': 188.985142, 'oracleClose': 189.040033, 'oracleHigh': 189.040033, 'oracleLow': 188.816249, 'quoteVolume': 24288.14525, 'baseVolume': 128.62, 'resolution': 1.0}"
